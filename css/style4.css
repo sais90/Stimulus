@@ -12,6 +12,10 @@
     padding-top: 15px;
 }
 
+.page__hello {
+    padding: 30px;
+}
+
 .flex-box_space-between {
     justify-content: space-between;
 }
@@ -70,9 +74,7 @@
 }
 
 .hello__menu {
-    padding-top: 15px;
-    padding-left: 30px;
-    margin: 0px 20px 120px 30px;
+    padding: 15px 0 120px 30px;
 }
 
 .menu__link {
@@ -90,12 +92,14 @@
     margin: 0px 20px 0px 30px;
 } */
 
-.content__text {
+/* .content__text {
     margin-bottom: 20px;
-}
+} */
 
-.text_size_s {
+.text_content {
     font-size: 12px;
+    margin: 10px 0 10px 0;
+
 }
 
 .text_size_s-ultra {
@@ -106,8 +110,9 @@
     font-size: 16px;
 }
 
-.text_size_b {
+.text_title {
     font-size: 25px;
+    margin: 10px 0 10px 0;
 }
 
 .text_weight_bold {
@@ -126,12 +131,16 @@
     color: white;
 }
 
-.text_align_left {
+/* .text_align_left {
     margin: 0px 20px 20px 30px;
-}
+} */
 
-.text_align_center {
+/* .text_align_center {
     text-align: center;
+} */
+
+.hello__button-wrapper {
+    margin: 20px 0 20px 0;
 }
 
 .button {
